@@ -2,7 +2,7 @@ package com.jesus.microservice.domain;
 
 import java.math.BigDecimal;
 
-public class CurrencyConvertionBean {
+public class CurrencyConversionBean {
 	private Long id;
 	private String from;
 	private String to;
@@ -21,11 +21,11 @@ public class CurrencyConvertionBean {
 		this.port = port;
 	}
 
-	public CurrencyConvertionBean() {
+	public CurrencyConversionBean() {
 
 	}
 
-	public CurrencyConvertionBean(Long id, String from, String to, BigDecimal conversionMultiple, BigDecimal quantity,
+	public CurrencyConversionBean(Long id, String from, String to, BigDecimal conversionMultiple, BigDecimal quantity,
 			BigDecimal totalCalculatedAmount,int port) {
 		super();
 		this.id = id;
